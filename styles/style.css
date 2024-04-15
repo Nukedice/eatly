@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+.header {
+	width: 100vw;
+	margin: 48px auto 15px;
+	display: flex;
+	height: 62px;
+	align-items: center;
+	padding: 0 50px;
+}
+.logo {
+	margin-right: 100px;
+}
+.header_menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	height: 100%;
+}
+.navigation {
+	display: flex;
+	flex-direction: row;
+	width: 40%;
+	justify-content: space-between;
+}
+.navigation > a {
+	font-family: Inter;
+	font-size: 17.83px;
+	font-weight: 500;
+	line-height: 26.74px;
+	text-align: left;
+	color: #606060;
+}
+.buttons {
+	gap: 12px;
+	height: 60px;
+}
+.buttons > button {
+	padding: 0 23px;
+	height: 100%;
+	font-family: Inter;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 26.74px;
+	text-align: center;
+	border-radius: 17px;
+	cursor: pointer;
+}
+.buttons > button:hover {
+	opacity: 70%;
+}
+.white_btn {
+	color: #606060;
+	background: #fff;
+	border: none;
+}
+.purple_btn {
+	color: #f9f9f9;
+	background: #6c5fbc;
+	border: none;
+}
+hr {
+	width: 92%;
+	margin: 20px auto;
+}
+.main {
+	display: flex;
+	padding: 50px;
+}
+.main_block {
+	width: 100%;
+}
+.main_block > img {
+	width: 100%;
+}
+.users {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	opacity: 20%;
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 2px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.line {
+	width: 54px;
+	height: 0px;
+	border: 1px solid #201f1f;
+	margin-right: 12px;
+}
+h1 {
+	font-family: Poppins;
+	font-size: 75px;
+	font-weight: 600;
+	line-height: 90px;
+	letter-spacing: -3px;
+	text-align: left;
+}
+h1 > span {
+	color: #6c5fbc;
+}
+.text {
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: justified;
+	opacity: 70%;
+	margin: 30px 0 40px;
+}
+.border {
+	border: 1.5px solid #6c5fbc;
+	margin-left: 20px;
+}
+.rating {
+	margin-top: 40px;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
+	color: #606060;
+	font-family: Poppins;
+	line-height: 24px;
+	font-weight: 500;
+}
