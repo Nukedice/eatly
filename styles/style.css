@@ -3,6 +3,9 @@
 	padding: 0;
 	text-decoration: none;
 	box-sizing: border-box;
+}
+body {
+	background-color: #f9f9f9;
 	overflow-x: hidden;
 }
 .header {
@@ -59,7 +62,7 @@
 }
 .white_btn {
 	color: #606060;
-	background: #fff;
+	background-color: #f9f9f9;
 	border: none;
 }
 .purple_btn {
@@ -239,4 +242,188 @@ h1 > span {
 		left: 135px;
 		bottom: -45px;
 	}
+}
+.top_restaurants {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	> h3 {
+		font-family: Poppins;
+		font-size: 45px;
+		font-weight: 600;
+		line-height: 25.56px;
+		text-align: left;
+		overflow: visible;
+		> span {
+			color: #6c5fbc;
+		}
+	}
+}
+.view_all {
+	align-self: flex-end;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 45.18px;
+	letter-spacing: -0.10000000149011612px;
+	text-align: left;
+	color: #acadb9;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	margin: 15px 0 25px;
+	> img {
+		align-self: center;
+		width: 15px;
+		height: 15px;
+	}
+}
+.restaurants_cards {
+	margin: 50px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	gap: 30px;
+	overflow: visible;
+}
+.restaurants_card {
+	border-radius: 30px;
+	border: 1.25px solid #f4f4f6;
+
+	box-shadow: 5.95px 71.35px 35.67px 0px #e5e5e5b2;
+	> img {
+		width: 100%;
+	}
+}
+.card_info {
+	padding: 7px 20px;
+	> h5 {
+		font-family: Poppins;
+		font-size: 25.79px;
+		font-weight: 600;
+		line-height: 41.9px;
+		text-align: left;
+	}
+}
+.ticket {
+	color: #daa31a;
+	background-color: #f7edd0;
+	font-family: Poppins;
+	font-size: 12.78px;
+	font-weight: 400;
+	line-height: 19.16px;
+	text-align: left;
+	display: inline;
+	border-radius: 5.4px;
+	padding: 2px 4px;
+}
+.red_ticket {
+	background-color: #f7c5ba;
+	color: #fb471d;
+}
+.about {
+	margin-top: 7px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.time {
+	font-family: Poppins;
+	font-size: 19.34px;
+	font-weight: 400;
+	line-height: 25.79px;
+	text-align: left;
+	color: #8e97a6;
+}
+.rate {
+	display: flex;
+	align-items: center;
+	color: #8e97a6;
+	font-family: Poppins;
+	font-size: 19.34px;
+	font-weight: 400;
+	line-height: 25.79px;
+	text-align: left;
+	margin-left: 17px;
+}
+.rating_info {
+	display: flex;
+	justify-content: space-between;
+}
+.dishes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	> h3 {
+		font-family: Poppins;
+		font-size: 45px;
+		font-weight: 600;
+		line-height: 25.56px;
+		text-align: left;
+		overflow: visible;
+		> span {
+			color: #6c5fbc;
+		}
+	}
+}
+.menu {
+	margin-top: 120px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+	overflow: visible;
+	gap: 10px;
+}
+.menu_item {
+	background-color: #fff;
+	border: 1.44px solid #f4f4f6;
+	box-shadow: 6.85px 82.18px 41.09px 0px #e5e5e5b2;
+	border-radius: 34.58px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 12px;
+	h5 {
+		font-size: 23px;
+	}
+}
+.like {
+	position: absolute;
+	top: 22px;
+	right: 22px;
+}
+.buy_now {
+	padding: 0 22px;
+	display: flex;
+	justify-content: space-between;
+}
+.price {
+	font-family: Poppins;
+	font-size: 25.94px;
+	font-weight: 700;
+	line-height: 40.34px;
+	text-align: left;
+	> span {
+		font-size: 18.81px;
+		opacity: 30%;
+	}
+}
+.add_to_cart {
+	background-color: #323142;
+	color: #fff;
+	width: 43.83px;
+	height: 39.72px;
+	border-radius: 8.93px;
+	font-size: 45px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.add_to_cart:hover {
+	opacity: 70%;
+}
+.green_ticket {
+	background-color: rgba(51, 172, 100, 0.2);
+	color: #309d5b;
 }
